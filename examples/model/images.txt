@@ -1,0 +1,5 @@
+# IMAGE_ID QW QX QY QZ TX TY TZ CAMERA_ID NAME
+10 1 0 0 0 0 0 0 7 image one.png
+320 240 42
+30 1 0 0 0 -1 0 0 7 image two.png
+300 240 42

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "local_environment": {
+    "os": "Linux",
+    "python": "3.12.14"
+  },
+  "unit_tests": {
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0
+  },
+  "checks": [
+    "installed CLI examples",
+    "source compilation",
+    "source and wheel build"
+  ],
+  "fixtures": "synthetic; no production accuracy or real robot runtime claim",
+  "remote_ci": "See Actions for current status; matrix configured for Ubuntu/Windows/macOS, Python 3.10/3.13.",
+  "integration": {
+    "source": "ReconTrail deterministic synthetic reconstruction",
+    "registered_images": 8,
+    "points3D": 2500,
+    "result": "strict model audit: zero errors/warnings",
+    "limits": "Format interoperability, not real-world accuracy evidence."
+  }
+}
